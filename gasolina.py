@@ -3,6 +3,7 @@ import seaborn as sns
 
 dados_gasolina = pd.read_csv('gasolina.csv')
 
+
 with sns.axes_style('darkgrid'):
   grafico_gasolina = sns.lineplot(
       x = 'dia',
